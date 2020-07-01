@@ -1,0 +1,170 @@
+/* Color Theme 
+Primary:
+#d81b60
+  Light:
+    #ffa5b0
+  Dark:
+    #852E4A
+Secondary:
+#06aae5
+  Light:
+    #65dcff
+  Dark:
+    #007bb3
+*/
+
+
+
+html {
+  font-family: 'Nunito', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #007bb3;
+}
+
+a:hover {
+  opacity: .5;
+}
+
+h1, h2 {
+  text-transform: uppercase;
+}
+
+.title {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+.container {
+  background: #d81b60;  /* fallback for old browsers = Respaldo */
+  background: -webkit-linear-gradient(to right, #852E4A, #d81b60);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #852E4A, #d81b60); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content {
+  max-width: 960px;
+  max-height: 500px;
+  width: 100%;
+  height: 80vh;
+  background-color: rgb(255, 251, 252);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.16);
+  border-radius: 4px;
+  position: relative;
+  overflow: scroll;
+}
+
+.content {
+  padding: 1em;
+}
+
+td {
+  display: block;
+}
+th {
+  display: none;
+  width: 100%;
+}
+td:nth-of-type(1) {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #d81b60;
+}
+
+.actions {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+}
+
+.close {
+  font-size: 30px;
+}
+
+paragraph {
+  line-height: 1.8em;
+  font-weight: 300;
+}
+
+.fa-star, .fa-star-half-alt {
+  color: #ffc40f;
+  font-size: 90%;
+}
+
+.fa-window-close {
+  color: #007bb3;
+
+}
+
+.table {
+  width: 100%;
+  border-spacing: 0;
+}
+
+.table td, .table th {
+  padding: .8em;
+  text-align: left;
+}
+
+.table tr:nth-child(even) {
+  background-color: #ffe0e3;
+  opacity: .9;
+}
+
+.title-item {
+  border-bottom: solid 2px #d81b60;
+  padding-bottom: 1em;
+}
+
+.website {
+  font-weight: bold;
+  color: #d81b60;
+  font-size: 1.2em;
+  margin-top: 1em;
+  display: inline-block;
+}
+
+.main-image {
+  float: left;
+  margin-right: 1em;
+  height: 200px;
+  width: 500px;
+}
+.position {
+  background-color: #ffa5b0;
+  color: rgb(255, 251, 252);
+  padding: 0.5em;
+  border-radius: 4px;
+  margin-right: 0.5em;
+}
+
+@media (min-width:900px) {
+  td,th {
+    display: table-cell;
+    width: auto;
+    padding: .8em;
+  }
+
+  td:nth-of-type(1) {
+    font-size: .9em;
+    width: auto;
+  }
+  .content {
+    padding: 2em 0.5em;
+    overflow: scroll;
+  }
+  
+}
+@media (min-height:550px){
+  .content {
+    height: 500pc;
+  }
+}
