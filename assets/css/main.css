@@ -84,8 +84,8 @@ td:nth-of-type(1) {
   width: 30px;
   border-radius: 50%;
   background-color: #ffa5b0;
-  color: rgb(255, 251, 252);
-  padding: 0.5em;
+  color: rgb(255, 255, 255);
+  padding: 0.25em;
   font-weight: bold;
   display: flex;
   align-items: center;
@@ -97,10 +97,8 @@ td:nth-of-type(1) {
 }
 
 .close {
-  box-shadow: 0 1px 2px rgba(0,0,0,0.16), 0 1px 2px rgba(0,0,0,0.23); 
   text-decoration: none;
   outline: none;
-  
 }
 
 paragraph {
